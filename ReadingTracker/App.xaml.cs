@@ -5,6 +5,8 @@ namespace ReadingTracker
     public partial class App : Application
     {
         public static HttpClient Http { get; } = new HttpClient();
+
+
         public App()
         {
             InitializeComponent();
